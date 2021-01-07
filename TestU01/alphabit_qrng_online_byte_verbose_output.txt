@@ -1,0 +1,424 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Alphabit:   nb = 1073741824
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_online.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    2,
+       Sparse =  FALSE
+
+       Number of bits = n = 536870912
+       Number of cells = 2^L =                  4
+       Expected number per cell =  1.3421773e+08
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  9.3132257e-10,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.62
+p-value of test                       :    0.15
+
+Kolmogorov-Smirnov- statistic = D-    :    0.28
+p-value of test                       :    0.64
+
+Anderson-Darling statistic = A2       :    0.81
+p-value of test                       :    0.46
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :   -0.84
+p-value of test                       :    0.80
+
+Standardized empirical correlation    :    0.49
+p-value of test                       :    0.31
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.13
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_online.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    4,
+       Sparse =  FALSE
+
+       Number of bits = n = 536870912
+       Number of cells = 2^L =                 16
+       Expected number per cell =    33554432
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =   6.519258e-09,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.34
+p-value of test                       :    0.55
+
+Kolmogorov-Smirnov- statistic = D-    :    0.22
+p-value of test                       :    0.74
+
+Anderson-Darling statistic = A2       :    0.31
+p-value of test                       :    0.93
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :   -0.37
+p-value of test                       :    0.64
+
+Standardized empirical correlation    :   -0.58
+p-value of test                       :    0.72
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.15
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_online.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    8,
+       Sparse =  FALSE
+
+       Number of bits = n = 536870912
+       Number of cells = 2^L =                256
+       Expected number per cell =     2097152
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  1.1827797e-07,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.45
+p-value of test                       :    0.35
+
+Kolmogorov-Smirnov- statistic = D-    :   0.085
+p-value of test                       :    0.91
+
+Anderson-Darling statistic = A2       :    0.66
+p-value of test                       :    0.57
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :   -0.88
+p-value of test                       :    0.81
+
+Standardized empirical correlation    :   -0.16
+p-value of test                       :    0.57
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.14
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_online.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  2,  n = 536870912,  r =  0,   s = 32,   L =   16,
+       Sparse =  FALSE
+
+       Number of bits = n = 536870912
+       Number of cells = 2^L =              65536
+       Expected number per cell =        8192
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  3.0516647e-05,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.11
+p-value of test                       :    0.88
+
+Kolmogorov-Smirnov- statistic = D-    :    0.65
+p-value of test                       :    0.12
+
+Anderson-Darling statistic = A2       :    1.07
+p-value of test                       :    0.31
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :    1.15
+p-value of test                       :    0.12
+
+Standardized empirical correlation    :    0.67
+p-value of test                       :    0.25
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:02.53
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_online.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  257
+Chi-square statistic                  :  219.62
+p-value of test                       :    0.96
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.90
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_online.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 16777216,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  501
+Chi-square statistic                  :  523.51
+p-value of test                       :    0.24
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.77
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_online.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.61
+p-value of test                       :    0.27
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.74
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_online.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 16777216,  r =  0,   s = 32,   L0 =   64,   L1 =   64
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   38
+ChiSquare statistic                   :   48.54
+p-value of test                       :    0.12
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   38
+ChiSquare statistic                   :   26.32
+p-value of test                       :    0.92
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   32
+ChiSquare statistic                   :   40.27
+p-value of test                       :    0.15
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   28
+ChiSquare statistic                   :   21.49
+p-value of test                       :    0.80
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   19
+ChiSquare statistic                   :   28.88
+p-value of test                       :    0.07
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:04.85
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_online.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 3355443,  r =  0,   s = 32,   L0 =  320,   L1 =  320
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   80
+ChiSquare statistic                   :   95.60
+p-value of test                       :    0.11
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   80
+ChiSquare statistic                   :   65.45
+p-value of test                       :    0.88
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  160
+ChiSquare statistic                   :  169.39
+p-value of test                       :    0.29
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   71
+ChiSquare statistic                   :   66.54
+p-value of test                       :    0.63
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   40
+ChiSquare statistic                   :   42.26
+p-value of test                       :    0.37
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:03.70
+
+Generator state:
+ 1073741760  bits have been read.
+
+
+
+
+
+========= Summary results of Alphabit =========
+
+ Version:          TestU01 1.2.3
+ File:             rand_qrng_online.bin
+ Number of bits:   1073741824
+ Number of statistics:  17
+ Total CPU time:   00:00:16.93
+
+ All tests were passed
+
+
+

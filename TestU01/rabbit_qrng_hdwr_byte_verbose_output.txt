@@ -1,0 +1,865 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Rabbit:   nb = 1073741824
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 30,  n = 9942048,  r =  0,   s = 32,   L =   38,
+       Sparse =   TRUE
+
+       Number of bits = n = 9942048
+       Number of cells = 2^L =       274877906944
+       Expected number per cell =  1 /  27648.016
+       EColl = n^2 / (2k) =  179.7967678
+       Hashing =   TRUE
+
+       Collision test
+       CollisionOver:   density = n / k =  1 /   27648.02
+       Expected number of collisions = Mu =     179.79
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     5393.80
+Observed number of collisions         :     5381
+p-value of test                       :    0.57
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :    8246038952261
+  j =  1                              :        298250678
+  j =  2                              :             5381
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:02:28.28
+
+Generator state:
+ 298261440  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  9,  n = 1864135,  r =  0,  t = 2
+
+
+-----------------------------------------------
+Max of all bit distances              :   21.00
+p-value of test                       :    0.59
+
+-----------------------------------------------
+CPU time used                    :  00:00:06.02
+
+Generator state:
+ 1073741760  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  9,  n = 932067,  r =  0,  t = 4
+
+
+-----------------------------------------------
+Max of all bit distances              :   10.00
+p-value of test                       :    0.20
+
+-----------------------------------------------
+CPU time used                    :  00:00:05.11
+
+Generator state:
+ 1073741184  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 33554432,   K = 33554432,   r = 0,   s = 30,   L = 15
+
+   Sequences of n = (K + Q)L =   1006632960 bits
+   Q = 33554432 initialization blocks
+   K = 33554432 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.12
+p-value of test                       :    0.87
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.92
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 75520,  r =  0,    s = 32
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    9
+Chi2 statistic for size of jumps      :    5.60
+p-value of test                       :    0.78
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :   0.017
+p-value of test                       :    0.49
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:04.11
+
+Generator state:
+ 75520  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N =  1,  n = 268435456,  r =  0,   s =   32,   k =   28
+
+
+-----------------------------------------------
+Normal statistic                      :    0.12
+p-value of test                       :    0.45
+
+-----------------------------------------------
+CPU time used                    :  00:00:11.96
+
+Generator state:
+ 268435456  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+sspectral_Fourier1 test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
+
+
+-----------------------------------------------
+Normal statistic                      :    0.68
+p-value of test                       :    0.25
+
+-----------------------------------------------
+CPU time used                    :  00:00:02.73
+
+Generator state:
+ 1048576  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 65408,  n = 16384,  r =  0,   s =   32,   k =   14
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 9.31e-3
+p-value of test                       :    0.49
+
+Kolmogorov-Smirnov- statistic = D-    : 8.70e-3
+p-value of test                       :    0.53
+
+Anderson-Darling statistic = A2       :    0.34
+p-value of test                       :    0.90
+
+-----------------------------------------------
+CPU time used                    :  00:00:18.19
+
+Generator state:
+ 1073737728  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 600,  r =  0,   s = 32,   L = 1789568
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi-square statistic                  :    8.62
+p-value of test                       :    0.38
+
+-----------------------------------------------
+Global longest run of 1               :   28.00
+p-value of test                       :    0.63
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:04.64
+
+Generator state:
+ 1073740800  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s =   31
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  217
+Chi-square statistic                  :  231.49
+p-value of test                       :    0.24
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.03
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+sstring_HammingWeight test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   26
+Chi-square statistic                  :   30.24
+p-value of test                       :    0.26
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.71
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :    1.46
+p-value of test                       :    0.07
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.74
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 16777216,  r =  0,   s = 32,   L = 64
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.32
+p-value of test                       :    0.62
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.72
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 8388608,  r =  0,   s = 32,   L = 128
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.83
+p-value of test                       :    0.20
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.76
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  257
+Chi-square statistic                  :  274.15
+p-value of test                       :    0.22
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.89
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 16777216,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  501
+Chi-square statistic                  :  554.29
+p-value of test                       :    0.05
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.78
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 8388608,  r =  0,   s = 32,   L = 64,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  885
+Chi-square statistic                  :  896.16
+p-value of test                       :    0.39
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.76
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  2,  n = 536870849,  r =  0,   s = 32,   d = 1
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.12
+p-value of test                       :    0.87
+
+Kolmogorov-Smirnov- statistic = D-    :    0.55
+p-value of test                       :    0.20
+
+Anderson-Darling statistic = A2       :    0.75
+p-value of test                       :    0.50
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    0.92
+p-value of test                       :    0.18
+
+Sample variance                       :    0.56
+p-value of test                       :    0.45
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.58
+
+Generator state:
+ 1073741760  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  2,  n = 536870850,  r =  0,   s = 32,   d = 2
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.77
+p-value of test                       :    0.05
+
+Kolmogorov-Smirnov- statistic = D-    :    0.17
+p-value of test                       :    0.80
+
+Anderson-Darling statistic = A2       :    1.49
+p-value of test                       :    0.18
+
+Tests on the sum of all N observations
+Standardized normal statistic         :   -1.20
+p-value of test                       :    0.88
+
+Sample variance                       :   0.025
+p-value of test                       :    0.87
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.55
+
+Generator state:
+ 1073741760  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 214748364,  r =  0,   s =   32
+
+
+-----------------------------------------------
+Total number of 1 runs:  214748371
+
+Number of degrees of freedom          :   48
+Chi2 statistic for number of runs     :   64.46
+p-value of test                       :    0.06
+
+
+-----------------------------------------------
+Total number of bits:  858966784
+
+Normal statistic for number of bits   :   -0.64
+p-value of test                       :    0.74
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:03.77
+
+Generator state:
+ 858966784  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,    s = 32,    L = 32,    k = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    4
+Chi-square statistic                  :    4.22
+p-value of test                       :    0.38
+
+-----------------------------------------------
+CPU time used                    :  00:00:05.44
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 10485,  r =  0,    s = 32,    L = 320,    k = 320
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    1.67
+p-value of test                       :    0.64
+
+-----------------------------------------------
+CPU time used                    :  00:00:07.11
+
+Generator state:
+ 1073664000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 1024,  r =  0,    s = 32,    L = 1024,    k = 1024
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    1.01
+p-value of test                       :    0.60
+
+-----------------------------------------------
+CPU time used                    :  00:00:11.88
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 8388608,  r =  0,   s = 32,   L0 =  128,   L1 =  128
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   52
+ChiSquare statistic                   :   47.02
+p-value of test                       :    0.67
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   53
+ChiSquare statistic                   :   52.51
+p-value of test                       :    0.49
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   61.11
+p-value of test                       :    0.58
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   43
+ChiSquare statistic                   :   49.05
+p-value of test                       :    0.24
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   26
+ChiSquare statistic                   :   25.92
+p-value of test                       :    0.47
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:04.41
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s = 32,   L0 = 1024,   L1 = 1024
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  130
+ChiSquare statistic                   :  154.76
+p-value of test                       :    0.07
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  132
+ChiSquare statistic                   :  165.44
+p-value of test                       :    0.03
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  512
+ChiSquare statistic                   :  490.57
+p-value of test                       :    0.74
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  124
+ChiSquare statistic                   :  123.04
+p-value of test                       :    0.51
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   67
+ChiSquare statistic                   :   92.61
+p-value of test                       :    0.02
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:03.37
+
+Generator state:
+ 1073741824  bits have been read.
+
+
+
+
+***********************************************************
+HOST = LAPTOP-R40IJNTE, Linux
+
+ufile_CreateReadBin:   rand_qrng_hdwr.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 107202,  r =  0,   s = 32,   L0 = 10016,   L1 = 10016
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  320
+ChiSquare statistic                   :  291.17
+p-value of test                       :    0.87
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  321
+ChiSquare statistic                   :  336.45
+p-value of test                       :    0.27
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          : 5008
+ChiSquare statistic                   : 4846.84
+p-value of test                       :    0.95
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  317
+ChiSquare statistic                   :  313.12
+p-value of test                       :    0.55
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  170
+ChiSquare statistic                   :  161.93
+p-value of test                       :    0.66
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:03.10
+
+Generator state:
+ 1073735232  bits have been read.
+
+
+
+
+
+========= Summary results of Rabbit =========
+
+ Version:          TestU01 1.2.3
+ File:             rand_qrng_hdwr.bin
+ Number of bits:   1073741824
+ Number of statistics:  40
+ Total CPU time:   00:04:11.00
+
+ All tests were passed
+
+
+
