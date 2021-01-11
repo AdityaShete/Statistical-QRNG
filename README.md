@@ -1,2 +1,4 @@
 # Statistical-QRNG
-Compiled results of 5 statistical tests done on 2 PRNGs and 2 QRNGs to test for biases and robustness of QRNGs.
+This repository stores the compiled results from statistical tests done on RNGs : Java Linear Congruential Generator, Python Mersenne Twister, ID Quantique Model-4M-PCIe and Humboldt Physik QRNG (an online service). We have sorted rested named after the respective names of the test suites used : NIST SP800 - 22, Dieharder, ENT, TestU01 and RaBiGeTe. All results are stored with verbose outputs from the suites with the exception of RaBiGeTe which outputs graphs for the test set.
+The project aims to determine a set of differentiating tests able to correctly categorize PRNGs and QRNGs with high probability. As an aside we also confirm the claim that QRNGs are better random number generators (closer to ideal) than PRNGs tested in our setup.
+Note: Certain tests of the NIST SP800 - 22 suite were unable to be completed due numerical convergence issues.
